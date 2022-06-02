@@ -3,9 +3,9 @@ import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { Link } from 'react-router-dom';
 
-import { validate } from './validate';
+import { validate } from '../helpers/Validate';
 import { notify } from "./toast"
-import styles from "./SignUp.module.css";
+// import styles from "./SignUp.module.css";
 
 const Register = () => {
 
