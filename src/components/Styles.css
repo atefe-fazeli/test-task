@@ -1,0 +1,278 @@
+.mainheader{
+    display: flex;
+    padding: 0 20px;
+    align-items: center;
+    background-color: white;
+}
+.mainheader img{
+object-fit: contain;
+}
+.mainheader h1{
+    margin-left: 15px;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+    align-items: center;
+  }
+  
+  .formContainer {
+    width: 100%vw;
+    padding: 20px;
+    margin: 50px 20px;
+    height: fit-content;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    color: black;
+    line-height: 12px;
+  }
+  
+  .formContainer p {
+    color:#8d8d8d;
+    font-size: 1.2rem;
+    text-align: center;
+    }
+
+  .formField {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+   
+  }
+  
+  .formField label {
+    text-align: left;
+    margin-bottom: 5px;
+    color:#8d8d8d;
+    font-size: 1.2rem;
+    
+  }
+  
+  .formInput {
+    width:550px;
+    height: 37px;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    border: 1px solid #8d8d8d;
+    transition: all 0.2s ease-in;
+  }
+  
+  .uncompleted {
+    width: 550px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 5px 10px;
+    border: 1px solid #8d8d8d;
+    /* transition: all 0.2s ease-in; */
+  }
+  
+  .formInput:focus,
+  .uncompleted:focus {
+    padding: 5px 10px;
+    outline: none;
+
+    height: 30px;
+    border: 1px solid #8d8d8d;
+  }
+  
+  .formField span {
+    height: 10px;
+    text-align: left;
+    margin-top: 5px;
+    width: fit-content;
+    font-size: 0.7rem;
+    color: red;
+    line-height: 10px;
+    padding: 2px 3px;
+    border-radius: 3px;
+    background-color: rgba(255, 0, 0, 0.175);
+  }
+  
+  .checkBoxContainer {
+    display: flex;
+    font-size: 0.85rem;
+    flex-direction: row !important;
+    align-items: flex-start;
+    height: 20px !important;
+    text-align: left;
+  }
+  
+
+  input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    border: 3px solid #8d8d8d;
+    transition: all 0.2s ease-in;
+  }
+  
+  input[type="checkbox"]:checked {
+    width: 18px;
+    height: 18px;
+  }
+  
+  input[type="checkbox"]:focus {
+    height: 18px;
+    width: 18px;
+    outline: none;
+    border: 2px solid ;
+  }
+  
+  .formButtons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .formButtons button {
+    background-color: #000a12;
+    width: 170px;
+    padding: 15px 22px;
+    color: #fff;
+    letter-spacing: 1px;
+    line-height: 20px;
+    border-radius: 25px;
+    border: none;
+    font-size: 0.875rem;
+    font-weight: 500;
+    transition: all 0.1s ease-in;
+    cursor: pointer;
+    margin-top: 25px;
+  }
+  
+  .formButtons a {
+    color: #000a12;
+    text-decoration: none;
+    transition: all 0.1s ease-in;
+    font-weight: 700;
+  }
+
+  .formField a{
+    color: #000a12;
+    text-decoration: none;
+    transition: all 0.1s ease-in;
+    font-weight: 700;
+  }
+
+  #signinformFielld {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+  }
+  .registericons{
+      width: 160px;
+      display: flex;
+      justify-content: space-between;
+      cursor: pointer;
+  }
+
+  @media (max-width: 440px) {
+    .formContainer {
+      padding: 20px;
+      margin: 50px 20px; 
+    }
+  
+    .formContainer {
+      width: 90%;
+    }
+  
+    .formInput {
+      width: 90%;
+    }
+  
+    .uncompleted {
+      width: 90%;
+    }
+  }
+
+
+  /*---------------- home --------------------*/
+
+
+  .HomeMaincontainer{
+display: flex;
+justify-content: space-between;
+background-color:#102027;
+  }
+
+  .NavMaincontainer{
+      display: flex;
+     
+      
+  }
+  
+  .NavUl{
+      display: flex;
+      border-right: 2px solid rgb(226, 220, 220);
+      justify-content: center;
+      align-items: center;
+      list-style: none;
+      padding-right: 15px;
+      padding-left: 15px;
+  }
+
+  .NavUl li{
+      display: flex;
+      align-items: center;
+      margin-right: 5px;
+      color: #f9f9f9;
+  }
+
+  .NavUl>li span{
+     margin:0 8px;
+  }
+
+  .NavUl img{
+      width:30px;
+      height: 30px;
+      border-radius: 50px;
+      align-self: center;
+      margin-right: 10px;
+  }
+
+  .NavIcons{
+    vertical-align: sub;
+    font-size: 25px;
+    margin-left: 8px;
+  }
+
+  .NavBtn{
+   position: relative;
+  }
+
+   .NavBtn button{
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background-color:#fff ;
+    width: 200px;
+    padding: 10px 22px;
+    color:#000a12 ;
+    letter-spacing: 1px;
+    border-radius: 25px;
+    border: none;
+    font-size: 0.875rem;
+    cursor: pointer;
+   }
+   /* -----------------------Banner -------------*/
+   .BannerImage{
+     display: table;
+     margin: 60px auto;
+     
+     
+   }
+   .wrapper{
+     width: 100vw;
+   }
